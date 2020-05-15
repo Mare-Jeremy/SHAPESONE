@@ -1,0 +1,121 @@
+body {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+section { 
+    padding: 30vh 0;
+}
+.one {
+    background: rgba(109, 63, 141, 0.877); 
+    position: relative;
+}
+.square {
+  height: 500px;
+  width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  background: linear-gradient(to top right, #F17BB7, #AD84E3);
+}
+}
+.one ::after
+.one ::before {
+    position: absolute;
+}
+
+.two {
+    background: rgba(77, 56, 92, 0.911);
+    position: relative;
+}
+.block-animation{
+    background: rgba(88, 189, 180, 0.829);
+    height: 300px;
+    width: 500px;
+    transition: background-color 1s linear;
+    margin: 0 auto;
+}
+.block-animation:hover {
+    background-color: #3F51B5;
+  }
+#grad1 {
+  height: 150px;
+  width: 200px;
+  background-image: radial-gradient(rgb(174, 0, 255), rgb(224, 5, 188), rgb(226, 150, 201));
+  margin: 0 auto;
+}
+.three {
+    background: rgba(92, 158, 142, 0.911);
+    position: relative;
+}
+.round {
+height: 500px;
+width: 500px;
+clip-path: circle(50%);
+margin: 0 auto;
+background: linear-gradient(to top right, #F17BB7, #AD84E3)
+}
+.four { 
+    background: rgba(111, 91, 165, 0.911);
+    position: relative;
+}
+.gradient--a {
+    width: 60vmin;
+  height: 60vmin;
+  background: conic-gradient(
+    lightgrey 0deg 30deg,
+    rgb(115, 255, 0) 30deg 60deg,
+    lightgrey 60deg 120deg,
+    rgb(17, 0, 255) 12deg 150deg,
+    lightgrey 150deg 210deg,
+    rgb(128, 0, 60) 210deg 240deg,
+    lightgrey 240deg 300deg,
+    blue 300deg 330deg,
+    lightgrey 330deg 360deg
+  );
+  -webkit-mask-image: radial-gradient(transparent 65%, black 65%);
+  mask-image: radial-gradient(transparent 65%, black 65%);
+  border-radius: 50%;
+  margin: 0 auto;
+  }
+
+.five {
+    background: rgba(140, 158, 92, 0.911);
+    position: relative;
+}
+.triangle {
+    width: 0;
+	height: 0;
+	border-left: 250px solid transparent;
+	border-right: 250px solid transparent;
+    border-bottom: 500px solid rgb(223, 122, 122);
+    margin: 0 auto;
+}
+.six {
+    background: rgba(228, 121, 72, 0.911);
+    position: relative;
+}
+.trapezoid {
+    border-bottom: 500px solid rgba(13, 185, 142, 0.486);
+	border-left: 250px solid transparent;
+	border-right: 250px solid transparent;
+	height: 0;
+    width: 300px;
+    margin: 0 auto;
+}
+.seven {
+    background: rgba(72, 126, 58, 0.911);
+    position: relative;
+}
+div.gradient--g {
+    width: 250px;
+    height: 250px;
+    background-image: linear-gradient(to bottom right, rgba(255, 251, 0, 0.808), rgb(255, 174, 0), rgb(255, 123, 0), white, orange);
+    transform: rotate(45deg);
+    margin: 0 auto;
+  }
+
+  
